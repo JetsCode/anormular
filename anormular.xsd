@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<got:schema xmlns:got="http://www.w3.org/2001/XMLSchema" targetNamespace="http://7kingdoms.ru" xmlns="http://7kingdoms.ru" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<got:element name="someone" type="personType">
+		<got:complexType name="personType">
+			<got:sequence>
+				<got:element name="firstName" type="got:string"/>
+				<got:element name="lastName" type="got:string"/>
+				<got:element name="age" type="got:integer"/>
+				<got:element name="dateBorn" type="got:date"/>
+				<got:element name="title" type="got:string"/>
+			</got:sequence>
+		</got:complexType>
+	</got:element>
+</got:schema>

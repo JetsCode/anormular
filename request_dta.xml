@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RequestAnormularDta  xmlns="http://msiter.ru" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://7kingdoms.ru anormular.xsd">
+	<someone>
+		<firstName>John</firstName>
+		<lastName>Snow</lastName>
+		<age>18</age>
+		<dateBorn>1900-12-01</dateBorn>
+		<title>U Know Nothing</title>
+	</someone>
+	<someone>
+		<firstName>Aria</firstName>
+		<lastName>Stark</lastName>
+		<age>13</age>
+		<dateBorn>1905-12-01</dateBorn>
+		<title>Valar Morgulis</title>
+	</someone>
+	<someone>
+		<firstName>Edard</firstName>
+		<lastName>Stark</lastName>
+		<dateBorn>1888-12-01</dateBorn>
+		<age>40</age>
+		<title>Winter Are Coming</title>
+	</someone>
+</RequestAnormularDta>
